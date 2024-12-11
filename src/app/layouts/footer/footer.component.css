@@ -1,0 +1,19 @@
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 20vw;
+}
+.footer li span.copyright {
+  font-weight: 600;
+  vertical-align: top;
+  font-style: italic;
+}

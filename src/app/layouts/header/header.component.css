@@ -1,0 +1,38 @@
+.header {
+  margin-top: 5px;
+}
+.linkText {
+  font-size: 1.5rem;
+}
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.header li {
+  display: inline-block;
+}
+
+.header .home {
+  background-color: yellow;
+  width: 15vw;
+}
+.header .leather_creation {
+  background-color: red;
+  width: 40vw;
+  border-radius: 10px 0 0 0;
+}
+.header .paintings {
+  background-color: green;
+  width: 40vw;
+  border-radius: 0 10px 0 0;
+}

@@ -1,2 +1,6 @@
+@import "./layouts/header/header.component.css";
+@import "./layouts/footer/footer.component.css";
 @import "./pages/legals-notice/legals-notice.component.css";
 @import "./pages/home/home.component.css";
+@import "./pages/contact/contact.component.css";
+@import "./pages/leather/leather.component.css";
