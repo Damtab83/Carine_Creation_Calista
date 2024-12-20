@@ -1,42 +1,45 @@
 <div class="container">
   <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid content_size">
+    <div class="container-fluid content_size leatherNav">
       <button
         class="navbar-toggler content_button"
         type="button"
         data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
+        data-bs-target="#navbarNav2"
+        aria-controls="navbarNav2"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
+            width="5"
+            height="5"
             fill="rgb(241, 214, 179)"
-            class="bi bi-list"
+            class="bi bi-arrow-return-right"
             viewBox="0 0 16 16"
-            filter
           >
             <path
               fill-rule="evenodd"
-              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"
             />
           </svg>
         </span>
       </button>
-      <div class="collapse navbar-collapse nav_style" id="navbarNav">
+      <div class="collapse navbar-collapse nav_style" id="navbarNav2">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="./pages/materiaux.html">Matériaux</a>
+            <a class="nav-link leatherLink" [routerLink]="['materiaux']"
+              >Matériaux</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/fabrication.html">Fabrication</a>
+            <a class="nav-link leatherLink" [routerLink]="['fabrication']"
+              >Fabrication</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/realisations.html"
+            <a class="nav-link leatherLink" [routerLink]="['realisations']"
               >Réalisations</a
             >
           </li>

@@ -1,0 +1,26 @@
+.leatherLink {
+  color: lightgrey;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 2px #000;
+}
+
+svg {
+  width: 20px;
+  height: 10px;
+}
+
+.leatherNav a {
+  text-decoration: none;
+}
+
+.leatherNav ul {
+  list-style-type: none;
+}
+
+.leatherNav li {
+  margin: auto 8.5vw;
+}
+
+/* .leatherNav {
+  margin-left: 0;
+} */

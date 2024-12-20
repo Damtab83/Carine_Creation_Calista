@@ -1,6 +1,12 @@
+.footer {
+  background-color: rgb(197, 187, 187);
+  width: 94vw;
+  border-radius: 0 0 20% 20%;
+  margin: auto;
+}
 svg {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .footer ul {
@@ -10,10 +16,28 @@ svg {
 
 .footer li {
   display: inline-block;
-  margin-right: 20vw;
+  margin-right: 10vw;
 }
 .footer li span.copyright {
   font-weight: 600;
-  vertical-align: top;
+  vertical-align: middle;
   font-style: italic;
+  color: #5e5a5a;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #5e5a5a;
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    width: 94vw;
+  }
 }

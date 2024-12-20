@@ -3,36 +3,23 @@
 }
 .linkText {
   font-size: 1.5rem;
+  color: lightgrey;
+  text-shadow: 2px 2px 2px #000;
 }
 svg {
   width: 20px;
   height: 20px;
 }
-
 .header a {
   text-decoration: none;
+  margin: auto;
 }
 
 .header ul {
   list-style-type: none;
-  text-align: center;
+  margin: auto;
 }
 
 .header li {
-  display: inline-block;
-}
-
-.header .home {
-  background-color: yellow;
-  width: 15vw;
-}
-.header .leather_creation {
-  background-color: red;
-  width: 40vw;
-  border-radius: 10px 0 0 0;
-}
-.header .paintings {
-  background-color: green;
-  width: 40vw;
-  border-radius: 0 10px 0 0;
+  margin: auto 9vw;
 }

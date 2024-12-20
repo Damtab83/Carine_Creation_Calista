@@ -8,12 +8,17 @@ import { BraceletComponent } from './pages/bracelet/bracelet.component';
 import { ManufacturingComponent } from './pages/manufacturing/manufacturing.component';
 import { MaterialComponent } from './pages/material/material.component';
 import { WalletComponent } from './pages/wallet/wallet.component';
+import { AchievementsComponent } from './pages/achievements/achievements.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { PaintingsComponent } from './pages/paintings/paintings.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' }, // Route par défaut
   { path: 'home', component: HomeComponent },
   { path: 'mentions-legales', component: LegalsNoticeComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'found', component: NotFoundComponent },
+  { path: 'tableaux', component: PaintingsComponent },
   {
     path: 'creation-cuir',
     component: LayoutLeatherComponent,
@@ -23,7 +28,7 @@ export const routes: Routes = [
       { path: 'fabrication', component: ManufacturingComponent },
       { path: 'materiaux', component: MaterialComponent },
       { path: 'bourses', component: WalletComponent },
+      { path: 'realisations', component: AchievementsComponent },
     ],
   },
-  // { path: 'found', component: PageNotFoundComponent },
 ];
